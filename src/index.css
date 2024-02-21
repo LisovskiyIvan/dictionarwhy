@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"]:focus ~ .input-text,  input[type="password"]:focus ~ .input-password{
+    @apply text-[#a6c1ee] bg-white transform -translate-y-6 -translate-x-3 scale-75
+}
